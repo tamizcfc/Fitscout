@@ -1,15 +1,4 @@
-"""
-Sports Connect - Streamlit app v2.0 (upgraded)
-Retains 100% of the original functionality and adds:
-- Charts (matplotlib) for athlete progress and distributions
-- Performance tracking over time (metrics_history.csv)
-- Simple team-athlete matching score
-- Admin analytics / leaderboard
-- Search & filter for athletes
-- CSV export / download buttons
 
-Single-file app. Save as sports_connect.py and run with Streamlit.
-"""
 
 import streamlit as st
 import pandas as pd
@@ -734,3 +723,4 @@ else:
 # -------------------------
 st.markdown("---")
 st.caption("Sports Connect v2.0 — charts, tracking, matching, and analytics added. Modify further for production.")
+

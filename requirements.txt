@@ -1,0 +1,1 @@
+need streamlit,pandas,numpy,matplotib

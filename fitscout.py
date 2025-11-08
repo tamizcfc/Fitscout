@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # -------------------------
 # Config
 # -------------------------
-st.set_page_config(page_title="Sports Connect v2.0", layout="wide")
+st.set_page_config(page_title="Fitscout", layout="wide")
 DATA_DIR = "app_data"
 USERS_CSV = os.path.join(DATA_DIR, "users.csv")
 TEAMS_CSV = os.path.join(DATA_DIR, "teams.csv")
@@ -342,7 +342,7 @@ if 'admin_logged_in' not in st.session_state:
 # -------------------------
 # Top-level UI: Choose role
 # -------------------------
-st.title("Sports Connect — Athletes & Scouts (v2.0)")
+st.title("Fitscout")
 st.markdown("A compact platform to showcase athletes, manage teams, route applications, and visualize performance.")
 
 role = st.sidebar.radio("I am a:", ("Athlete / Client", "Admin"))
@@ -722,5 +722,6 @@ else:
 # Footer
 # -------------------------
 st.markdown("---")
-st.caption("Sports Connect v2.0 — charts, tracking, matching, and analytics added. Modify further for production.")
+st.caption("Fitscout — charts, tracking, matching, and analytics added. Modify further for production.")
+
 
